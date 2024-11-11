@@ -19,7 +19,8 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -29,7 +30,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     m_Colors:
-    - _Color: {r: 176.82436, g: 421.19962, b: 367.57642, a: 0}
+    - _Color: {r: 734.83673, g: 1309.1208, b: 1187.5078, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4990477350099977302
 MonoBehaviour:
