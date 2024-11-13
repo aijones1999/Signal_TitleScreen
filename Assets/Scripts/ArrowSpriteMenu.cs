@@ -5,39 +5,43 @@ using UnityEngine.EventSystems;
 public class HoverArrow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [Header("Arrow Settings")]
-    public Image arrowImage;           // Reference to the arrow sprite
-    public Vector2 offset = new Vector2(-50f, 0f); // Offset of the arrow from the button position
+    public RectTransform arrowImage;           // Reference to the arrow sprite (RectTransform)
+    public Vector2 offset = new Vector2(-50f, 0f); // Offset of the arrow relative to the button's local position
+
+    private RectTransform originalParent; // Original parent to reattach the arrow when not hovering
 
     private void Start()
     {
-        // Ensure the arrow image is initially hidden
         if (arrowImage != null)
         {
-            arrowImage.gameObject.SetActive(false);
+            arrowImage.gameObject.SetActive(false); // Hide arrow initially
+            originalParent = arrowImage.parent as RectTransform; // Save the arrow's original parent
         }
     }
 
-    // Triggered when the mouse pointer enters the button
+    // Called when the mouse pointer enters the button
     public void OnPointerEnter(PointerEventData eventData)
     {
         if (arrowImage != null)
         {
-            // Activate the arrow image
             arrowImage.gameObject.SetActive(true);
 
-            // Set the arrow position relative to this button's position, using the offset
-            RectTransform buttonRect = GetComponent<RectTransform>();
-            arrowImage.rectTransform.position = buttonRect.position + (Vector3)offset;
+            // Set the arrow as a child of the button to lock it to the button’s local position
+            arrowImage.SetParent(transform, false);
+
+            // Set the local position of the arrow with the offset
+            arrowImage.localPosition = offset;
         }
     }
 
-    // Triggered when the mouse pointer exits the button
+    // Called when the mouse pointer exits the button
     public void OnPointerExit(PointerEventData eventData)
     {
-        // Hide the arrow when exiting the button
         if (arrowImage != null)
         {
+            // Hide the arrow and reset its parent back to the original
             arrowImage.gameObject.SetActive(false);
+            arrowImage.SetParent(originalParent, false);
         }
     }
 }
