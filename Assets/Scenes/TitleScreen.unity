@@ -314,9 +314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574ce6d078360a54184400eca046ed8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowImage: {fileID: 1199899004}
-  offset: {x: -120, y: 0}
-  originalParent: {fileID: 0}
 --- !u!1 &47735115
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,9 +705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574ce6d078360a54184400eca046ed8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowImage: {fileID: 1199899004}
-  offset: {x: -120, y: 0}
-  originalParent: {fileID: 0}
 --- !u!1 &207494276
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,9 +2046,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574ce6d078360a54184400eca046ed8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowImage: {fileID: 1199899004}
-  offset: {x: -120, y: 0}
-  originalParent: {fileID: 0}
 --- !u!1 &821233715
 GameObject:
   m_ObjectHideFlags: 0
@@ -2692,9 +2683,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574ce6d078360a54184400eca046ed8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowImage: {fileID: 1199899004}
-  offset: {x: -120, y: 0}
-  originalParent: {fileID: 0}
 --- !u!114 &956096691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2949,7 +2937,7 @@ Transform:
   m_GameObject: {fileID: 1005232162}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2831754, y: 0.38497993, z: 0.7015361}
+  m_LocalPosition: {x: 0.2831754, y: 0.38497993, z: 0.545}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3603,9 +3591,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574ce6d078360a54184400eca046ed8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowImage: {fileID: 0}
-  offset: {x: -110, y: 0}
-  originalParent: {fileID: 0}
 --- !u!1 &1408590094
 GameObject:
   m_ObjectHideFlags: 0
@@ -8746,9 +8731,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574ce6d078360a54184400eca046ed8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowImage: {fileID: 466311293}
-  offset: {x: -110, y: 0}
-  originalParent: {fileID: 0}
 --- !u!1 &1633882570
 GameObject:
   m_ObjectHideFlags: 0
@@ -8807,7 +8789,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Horror Background Atmosphere #11\r \nby Universfield\r \n-Pixabay\n\r\nAnalog
-    Appliance Button 7\n by floraphonic\n-Pixabay\n\nProjector Button Push-Pixabay\n"
+    Appliance Button 7\n by floraphonic\n-Pixabay\n\nProjector Button Push-Pixabay\n\nUI
+    Manager Script\n-Chat GPT\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 134c5183f795a6f439deb3fc7e555ab3, type: 2}
   m_sharedMaterial: {fileID: -3150268430526698286, guid: 134c5183f795a6f439deb3fc7e555ab3,
@@ -9186,9 +9169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574ce6d078360a54184400eca046ed8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowImage: {fileID: 1199899004}
-  offset: {x: -120, y: 0}
-  originalParent: {fileID: 0}
 --- !u!1 &1787938821
 GameObject:
   m_ObjectHideFlags: 0
@@ -14682,9 +14662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574ce6d078360a54184400eca046ed8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowImage: {fileID: 1199899004}
-  offset: {x: -120, y: 0}
-  originalParent: {fileID: 0}
 --- !u!1001 &2091674240
 PrefabInstance:
   m_ObjectHideFlags: 0
