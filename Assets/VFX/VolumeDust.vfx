@@ -1780,7 +1780,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.5
+      m_SerializableObject: 0.776
     m_Space: 2147483647
   m_Property:
     name: smoothness
@@ -2962,7 +2962,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.041
+      m_SerializableObject: 0.025
     m_Space: 2147483647
   m_Property:
     name: alphaThreshold
@@ -3026,7 +3026,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.9622641801834107,"g":1.9498169422149659,"b":1.4130768775939942,"a":1.0},"time":0.3929045498371124},{"color":{"r":0.9182389378547669,"g":0.9022002220153809,"b":0.37826818227767947,"a":1.0},"time":0.46387428045272829},{"color":{"r":0.8679245114326477,"g":0.8559636473655701,"b":0.46125540137290957,"a":1.0},"time":0.548790693283081},{"color":{"r":0.5,"g":0.5,"b":0.5,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.47022202610969546},{"alpha":0.800000011920929,"time":0.800000011920929},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.9622641801834107,"g":1.9498169422149659,"b":1.4130768775939942,"a":1.0},"time":0.24118410050868989},{"color":{"r":1.9622641801834107,"g":1.9498169422149659,"b":1.4130768775939942,"a":1.0},"time":0.3353017568588257},{"color":{"r":0.9182389378547669,"g":0.9022002220153809,"b":0.37826818227767947,"a":1.0},"time":0.46387428045272829},{"color":{"r":0.5,"g":0.5,"b":0.5,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":0.07058823853731156,"time":0.47022202610969546},{"alpha":0.125490203499794,"time":0.800000011920929},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
