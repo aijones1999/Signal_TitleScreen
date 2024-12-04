@@ -1118,7 +1118,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 82cd48014e6153844b8164d82a2b1c64,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9665238
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82cd48014e6153844b8164d82a2b1c64,
         type: 3}
@@ -1128,7 +1128,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 82cd48014e6153844b8164d82a2b1c64,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.25657678
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82cd48014e6153844b8164d82a2b1c64,
         type: 3}
@@ -1143,7 +1143,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 82cd48014e6153844b8164d82a2b1c64,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 29.734
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82cd48014e6153844b8164d82a2b1c64,
         type: 3}
@@ -1815,6 +1815,7 @@ Transform:
   m_Children:
   - {fileID: 325788401}
   - {fileID: 423985947}
+  - {fileID: 569764609}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &444820863
@@ -2022,12 +2023,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569764607}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.10030119, y: 0.1494269, z: 0.098180704}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.059999153, y: -0.21568435, z: -0.01294107}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 444820862}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &643482314
 GameObject:
@@ -14730,7 +14731,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1922002138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14766,7 +14767,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.83766466, g: 0.9811321, b: 0.9625966, a: 1}
-  m_Intensity: 0.46
+  m_Intensity: 0.21
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -15617,4 +15618,3 @@ SceneRoots:
   - {fileID: 533555893}
   - {fileID: 444820862}
   - {fileID: 991602219}
-  - {fileID: 569764609}
