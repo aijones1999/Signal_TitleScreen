@@ -14656,7 +14656,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1922002138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14692,13 +14692,13 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.83766466, g: 0.9811321, b: 0.9625966, a: 1}
-  m_Intensity: 0.03
+  m_Intensity: 0.01
   m_Range: 14.42
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14751,7 +14751,7 @@ Transform:
   m_GameObject: {fileID: 1922002137}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.029000007, y: 1.497, z: 0.724}
+  m_LocalPosition: {x: 0.08, y: 0.033, z: 0.145}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
